@@ -13,6 +13,13 @@ class Block {
             Hash     : ${this.hash.substring(0,10)}
             Data     : ${this.data}`;
     }
+
+    //static lets you use this method in other files that require this one without creating a new "Block" instance, all u do is call [ClassName].[MethodName]
+    static genesis(){
+        return new this('Genesis time', '-----', 'first-hash', [])
+    }
+
+
 }
 
 module.exports = Block;
