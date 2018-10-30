@@ -1,0 +1,26 @@
+{
+  "name": "sha-256",
+  "version": "1.0.0",
+  "description": "hello fellas",
+  "main": "index.js",
+  "dependencies": {
+    "universal-cookie": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReverendEd/advanced-blockchain-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReverendEd/advanced-blockchain-practice/issues"
+  },
+  "homepage": "https://github.com/ReverendEd/advanced-blockchain-practice#readme"
+}
