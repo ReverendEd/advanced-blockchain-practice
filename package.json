@@ -5,9 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1",
     "express": "^4.16.4",
     "universal-cookie": "^3.0.4",
+    "uuid": "^3.3.2",
     "ws": "^6.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "devDependencies": {
     "jest": "^23.6.0",
